@@ -1,9 +1,9 @@
-function takeANumber (currentLine, name)
-{
-  var current = currentLine.length + 1;
-  currentLine.push(name);
-  return `Welcome, ${name}. You are number ` + current + ` in line.`;
-}
+// function takeANumber (currentLine, name)
+// {
+//   var current = currentLine.length + 1;
+//   currentLine.push(name);
+//   return `Welcome, ${name}. You are number ` + current + ` in line.`;
+// }
 
 
 function nowServing(katzDeliLine)
