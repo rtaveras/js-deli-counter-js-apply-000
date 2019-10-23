@@ -6,6 +6,16 @@
 // }
 
 
+function takeANumber (currentLine)
+{
+  var n = 1;
+  var newLine = currentLine.push(n);
+  
+  return `You are number ${n} in line!`;
+  
+}
+
+
 function nowServing(katzDeliLine)
 {
   if (katzDeliLine.length < 1){
